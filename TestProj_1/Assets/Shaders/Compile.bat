@@ -1,3 +1,4 @@
+echo off
 set VULKAN_SDK=C:\VulkanSDK\1.3.275.0\Bin
 set SHADER_DIR=./
 

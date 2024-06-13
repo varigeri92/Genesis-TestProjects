@@ -14,6 +14,7 @@ layout(set = 1, binding = 4) uniform sampler2D tex_ao;
 //output write
 layout (location = 0) out vec4 outFragColor;
 
+//expose:
 layout(set = 0, binding = 1) uniform  SceneData{
     vec4 fogColor; // w is for exponent
 	vec4 fogDistances; //x for min, y for max, zw unused.
@@ -32,5 +33,5 @@ void main()
 	vec3 unlitSolidColor = vec3(0.9, 0.7, 0.5);
 	
 	vec3 color = texture(tex_color, inTexCoord).xyz;
-	outFragColor = vec4((color * diffuse) * (sceneData.ambientColor.xyz),1.0f);
+	outFragColor = vec4(0.2157, 0.6549, 0.2745, 1.0);//vec4((color * diffuse) * (sceneData.ambientColor.xyz),1.0f);
 }

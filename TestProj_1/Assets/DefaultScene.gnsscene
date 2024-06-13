@@ -1,0 +1,146 @@
+version: 0.3.0
+scene: DefaultScene
+entities:
+  -
+    - component_name: EntityComponent
+      component_id: 1103535220
+      component_fields:
+        - field_name: name
+          field_type: 10283618467285603348
+          field_offset: 8
+          field_size: 40
+          field_value: new entity
+        - field_name: guid
+          field_type: 671912688476192120
+          field_offset: 48
+          field_size: 8
+          field_value: 12626787773895433781
+    - component_name: Transform
+      component_id: 535706418
+      component_fields:
+        - field_name: position
+          field_type: 9637191525283713622
+          field_offset: 8
+          field_size: 12
+          field_value: [0, 2.06541443, 0]
+        - field_name: rotation
+          field_type: 9637191525283713622
+          field_offset: 20
+          field_size: 12
+          field_value: [0, -0, 0]
+        - field_name: scale
+          field_type: 9637191525283713622
+          field_offset: 32
+          field_size: 12
+          field_value: [1, 1, 1]
+    - component_name: Light
+      component_id: 3441788878
+      component_fields:
+        - field_name: color
+          field_type: 14064208328104967154
+          field_offset: 8
+          field_size: 16
+          field_value: [0.909803927, 0.847058833, 0.643137276]
+        - field_name: intensity
+          field_type: 12638226781420530164
+          field_offset: 24
+          field_size: 4
+          field_value: 3
+    - component_name: PointLight
+      component_id: 3162323136
+      component_fields:
+        - field_name: range
+          field_type: 12638226781420530164
+          field_offset: 8
+          field_size: 4
+          field_value: 15
+  -
+    - component_name: EntityComponent
+      component_id: 1103535220
+      component_fields:
+        - field_name: name
+          field_type: 10283618467285603348
+          field_offset: 8
+          field_size: 40
+          field_value: DamagedHelmet
+        - field_name: guid
+          field_type: 671912688476192120
+          field_offset: 48
+          field_size: 8
+          field_value: 1205915790957351681
+    - component_name: Transform
+      component_id: 535706418
+      component_fields:
+        - field_name: position
+          field_type: 9637191525283713622
+          field_offset: 8
+          field_size: 12
+          field_value: [2.97444153, 0, 0]
+        - field_name: rotation
+          field_type: 9637191525283713622
+          field_offset: 20
+          field_size: 12
+          field_value: [1.58000016, -0, 0]
+        - field_name: scale
+          field_type: 9637191525283713622
+          field_offset: 32
+          field_size: 12
+          field_value: [1, 1.00000012, 1.00000012]
+    - component_name: RendererComponent
+      component_id: 4196380516
+      component_fields:
+        - field_name: m_mesh
+          field_type: 12210808570795409600
+          field_offset: 8
+          field_size: 8
+          field_value: 3029531340709862081
+        - field_name: m_materials
+          field_type: 9862035689081362578
+          field_offset: 16
+          field_size: 32
+          field_value: 0
+  -
+    - component_name: EntityComponent
+      component_id: 1103535220
+      component_fields:
+        - field_name: name
+          field_type: 10283618467285603348
+          field_offset: 8
+          field_size: 40
+          field_value: Suzan
+        - field_name: guid
+          field_type: 671912688476192120
+          field_offset: 48
+          field_size: 8
+          field_value: 11012920334402076601
+    - component_name: Transform
+      component_id: 535706418
+      component_fields:
+        - field_name: position
+          field_type: 9637191525283713622
+          field_offset: 8
+          field_size: 12
+          field_value: [-2.5351181, 0, 0]
+        - field_name: rotation
+          field_type: 9637191525283713622
+          field_offset: 20
+          field_size: 12
+          field_value: [0, -0, 0]
+        - field_name: scale
+          field_type: 9637191525283713622
+          field_offset: 32
+          field_size: 12
+          field_value: [1, 1, 1]
+    - component_name: RendererComponent
+      component_id: 4196380516
+      component_fields:
+        - field_name: m_mesh
+          field_type: 12210808570795409600
+          field_offset: 8
+          field_size: 8
+          field_value: 5211356891857183302
+        - field_name: m_materials
+          field_type: 9862035689081362578
+          field_offset: 16
+          field_size: 32
+          field_value: 0
