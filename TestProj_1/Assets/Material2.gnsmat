@@ -1,0 +1,15 @@
+V_shader: blinphong.vert.spv
+F_shader: blinphong.frag.spv
+attributes:
+  - name: c_albedo
+    set: 1
+    type: 6
+    binding: 0
+    offset: 0
+    value: [1, 0, 0, 1]
+  - name: specular
+    set: 1
+    type: 0
+    binding: 0
+    offset: 16
+    value: 0.5
